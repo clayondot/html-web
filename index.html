@@ -28,26 +28,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column; 
         }
 
         .transparent-image {
-            position: absolute;
             background-image: url('transparent_clay.png');
-            width: 300px;
-            height: 300px;
+            width: 500px; 
+            height: 500px; 
             background-size: contain;
             background-repeat: no-repeat;
         }
 
         .centered-text {
-            position: absolute;
             color: rgb(0, 0, 0);
             font-size: 24px;
             text-shadow: 2px 2px 8px #000; 
             font-family: 'Unbounded', sans-serif; 
             text-align: center;
-            width: 100%;
-            z-index: 10;
+            padding: 20px 0; 
         }
 
         .bottom-text {
@@ -59,7 +57,7 @@
             padding: 0 50px;
             color: rgb(0, 0, 0);
             font-size: 20px;
-            font-family: 'Unbounded', sans-serif; 
+            font-family: 'Unbounded', sans-serif;
         }
     </style>
 </head>
